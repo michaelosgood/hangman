@@ -1,16 +1,14 @@
 body {
-	background-color: #D4AF37;
+	background-color: #3cfc66;
 	text-align: center;
 }
 
 #panel {
-	color:#D4AF37;
+	color:#3cfc66;
 	background-color: black;
-	border-color: #D4AF37;
+	border-color: #3cfc66;
 }
 
 .panel-title {
-	color: #D4AF37;
+	color: #3cfc66;
 }
-
-

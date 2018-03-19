@@ -41,7 +41,7 @@ function startGame () {
 	numBlanks = lettersinWord.length;
 
 	//Reset
-	guessesLeft = 9;
+	guessesLeft = 15;
 	wrongLetters = [];
 	blanksAndSuccesses = [];
 
