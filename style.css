@@ -1,0 +1,16 @@
+body {
+	background-color: #D4AF37;
+	text-align: center;
+}
+
+#panel {
+	color:#D4AF37;
+	background-color: black;
+	border-color: #D4AF37;
+}
+
+.panel-title {
+	color: #D4AF37;
+}
+
+

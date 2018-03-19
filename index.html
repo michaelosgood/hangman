@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Gucci HangMane</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="jumbotron" id="panel">
+					<h1>Gucci HangMane</h1>
+					<p>Guess the correct Gucci Mane song!</p>
+					<img src="http://www.rap-up.com/app/uploads/2016/07/gucci-ice-cream.jpg" height="300" width="300">
+				</div>
+		
+				<div class="panel panel-default" id="panel">
+					<div class="panel-heading" id="panel">
+						<h3 class="panel-title">Song to Guess</h3>
+					</div>
+					<div class="panel-body">
+						<h2 id="wordToGuess">_ _ _ _ _ _ _ _ _ _</h2>
+					</div>
+				</div>
+
+				<div class="panel panel-default" id="panel">
+					<div class="panel-body">
+						Wrong Guesses: <span id="wrongGuesses"></span>
+					</div>
+				</div>
+
+				<div class="panel panel-default" id="panel">
+					<div class="panel-body">
+						Guesses Left: <span id="numGuesses">1</span>
+					</div>
+				</div>
+
+				<div class="panel panel-default" id="panel">
+					<div class="panel-body">
+						Win Counter: <span id="winCounter">3</span>
+					</div>
+				</div>
+
+				<div class="panel panel-default" id="panel">
+					<div class="panel-body">
+						Loss Counter: <span id="lossCounter">4</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Link to JavaScript-->
+	<script src="app.js" type="text/javascript"></script>
+
+</body>
+</html>
