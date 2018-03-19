@@ -31,7 +31,7 @@ var wrongLetters = [];
 //Game counters
 var winCount = 0;
 var lossCount = 0;
-var guessesLeft = 9;
+var guessesLeft = 15;
 
 //FUNCTIONS (reuable blocks of code I can call upon when needed)
 //--------------------------------------------------------------
